@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    background-color: #FAF3E0;
+     text-align: center;
+  }
+  .rectangle{
+    height: 150px;
+    width: 450px;
+    border-radius: 40px;
+    background-color: #E4D3CF;
+      font-family: 'Manrope', sans-serif;
+      margin-left: 160px;
+      text-align: center;
+      font-size: 45px;
+       padding: 45px;
+     }
+  
+  .child{
+  float: left;
+  width: 50%;
+  }
+  .parent{
+    display: flex;
+  }
+  
+  .input-fields{
+    flex-direction: column;
+    margin-right: 4%;
+  }
+  
+  .input-fields .input,
+  .msg textarea, .age, .type {
+    margin: 10px 0;
+    background: transparent;
+    border: 0px;
+    border-bottom: 2px solid black;
+    padding: 10px;
+    color:black;
+    width: 100%;
+  }
+  .file{
+     margin: 12px 0;
+  }
+  .msg textarea{
+    height: 212px;
+  }
+  
+  .btn {
+      background: black;
+      text-align: center;
+      padding: 15px;
+      border-radius: 5px;
+      color: #fff;
+      cursor: pointer;
+      text-transform: uppercase;
+      margin:45px;
+      
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  
+  @media screen and (max-width: 600px){
+    .contact-form{
+      flex-direction: column;
+    }
+    .msg textarea{
+      height: 80px;
+    }
+    .input-fields,
+    .msg{
+      width: 100%;
+    }
+  }
+  
