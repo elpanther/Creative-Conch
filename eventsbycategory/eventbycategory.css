@@ -221,8 +221,18 @@ color: rgb(19, 11, 11);
 }
 .item> h6{
   background-color:white;
-  border-radius: 40%;
+  
 }
+.item> p3{
+  background-color:white;
+  
+}
+
+
+
+
+
+
 
 
 .item:hover{

@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
-    <link rel="stylesheet" href="./eventsbycategory/eventbycategory.css">
+    <link rel="stylesheet" href="./eventbycategory.css">
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 
     <head>
-<title>LETS GET STARTRED !</title>
+<title></title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -27,7 +27,7 @@
 
 <!-- top 3 icon -->
 
-<ul class = "corner" ><a href="">
+<ul class = "corner" ><a href="../html/userProfile.html">
      <div class="profile">
         <svg xmlns="http://www.w3.org/2000/svg" width="70" height="40" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
             <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
@@ -37,7 +37,7 @@
 </ul>
 
 <ul class = "corner2">
-    <a href="">
+    <a href="../html/createevent.html">
     <div class="word">
         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="40" fill="currentColor" class="bi bi-plus-square-fill" viewBox="0 0 16 16">
             <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm6.5 4.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3a.5.5 0 0 1 1 0z"/>
@@ -107,23 +107,29 @@
                 <a href="https://www.apple.com/apple-events/"><p2>Apple 2021</p2> </a>
                 
                 <bold> <p3>06/25/21</p3></bold>
-                 <bold> <h6>❤</h6> </li></bold>
+                 <bold> <h7>❤</h7> </li></bold>
                  
   
-                  <li class="item" id="two">Title <p3 class="dt">date and time</p3>
+                  <li class="item" style="background-image: url('./rx.jpg')";>
+                    <h6 id="two">Title</h6> 
+                    <p3 class="dt" id="timetwo">date and time</p3>
                       <h6 class="six">❤</h6>
                   </li>
   
-                  <li class="item" id="">Title <p3>date and time</p3>
-                      <h6>❤</h6>
+                  <li class="item" style="background-image: url('./vanilla-ice-cream-5-copy.jpg')";>
+                    <h6 id="three">Title</h6> 
+                    <p3 class="dt" id="timethree">date and time</p3>
+                      <h6 class="six">❤</h6>
                   </li>
-  
-                  <li class="item">Title <p3>date and time</p3>
-                      <h6>❤</h6>
+                  <li class="item" style="background-image: url('./cars.jpg')";>
+                    <h6 id="three">Title</h6> 
+                    <p3 class="dt" id="timethree">date and time</p3>
+                      <h6 class="six">❤</h6>
                   </li>
-  
-                  <li class="item">Title <p3>date and time</p3>
-                      <h6>❤</h6>
+                  <li class="item" style="background-image: url('./horsed.jpeg')";>
+                    <h6 id="three">Title</h6> 
+                    <p3 class="dt" id="timethree">date and time</p3>
+                      <h6 class="six">❤</h6>
                   </li>
                              
             </ul>
@@ -238,11 +244,6 @@
   </div>
 
 
-  <form onsubmit="return dia()">
-    <!-- <label for="week">Select a week:</label> -->
-    <input type="week" id="week" name="week">
-    <!-- <input type="submit" value="Submit">  -->
-  </form>
  
 </div>
 
@@ -301,10 +302,6 @@
     <h3></h3>
 </div>
 
-
-
-<script src="./eventbycatagory.js"></script>
-
 <footer class="footer">
 <div class="turnout">
     <h1> TURN </h1>
@@ -330,11 +327,18 @@
 </footer>
 
 <script>  
-// function dia() {
-//    let info= document.getElementById("week").value ;
-//     console.log(`the week chosen is ${info}`)
+fetch("./eventbycatagory.json")
+.then(response => response.json())
+.then(data => {
+    console.log(data.eventName)
+    document.querySelector("#two").innerText = data[0].eventName
+    document.querySelector("#timetwo").innerText = data[0].Date
+    document.querySelector("#three").innerText = data[1].eventName
+    document.querySelector("#timethree").innerText = data[1].Date  
+})
 
-// }
+// 
+
 
 
 
