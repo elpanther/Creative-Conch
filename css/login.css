@@ -1,3 +1,151 @@
+
+.nav{
+  position: absolute;
+width: 100%;
+height: 66px;
+left: 0px;
+top: 0px;
+background-color:#CD9C27;
+}
+
+.corner{
+  
+position: absolute;
+width: 126px;
+height: 23px;
+left: 72%;
+top: 25px;
+cursor:pointer;
+
+}
+
+.corner:hover{
+  
+    color: #fff;
+ 
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2)
+}
+
+
+
+
+
+.corner2{
+  position: absolute;
+width: 126px;
+height: 23px;
+left: 80%;
+top: 25px;
+cursor:pointer;
+
+}
+.corner2:hover{
+  
+  color: rgb(2, 223, 2);
+
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2)
+}
+
+
+
+
+
+
+
+.corner3{
+  position: absolute;
+  width: 126px;
+  height: 23px;
+  left: 87%;
+  top: 25px;
+  cursor:pointer;
+}
+
+.corner3:hover{
+  
+  color: #fff;
+
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2)
+}
+
+
+
+
+
+
+/* .word >h3{
+  color: white;
+font-size: large;
+  
+} */
+
+
+
+
+.all{
+  height:100%;
+  background-color:  #FAF3E0;
+  
+} 
+
+
+
+.nav-item4{
+
+  padding-left: 5vw;
+  padding-right: 5vw;
+  background-color: rgb(247, 121, 3);
+
+}
+
+
+
+
+
+:root {
+  --gutter: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .topnav {
     background-color: #333;
     overflow: hidden;
