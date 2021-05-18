@@ -22,9 +22,19 @@ height: 70px;
 left: 247px;
 top: 273px;
 
-background: #C4C4C4;
-border: 1px solid rgba(0, 0, 0, 0.6);
+background: #F59A8B;
+border: #FF7477 solid 2px; 
 box-sizing: border-box;
+border-radius: 50px;
+}
+#PPButton:hover {
+  background: rgb(247, 217, 194);
+  background-repeat: no-repeat;
+  /* background-image: url(/Images/Image_Icon.jpg); */
+  background-position: center;
+  background-size: 40px;
+  cursor: pointer;
+}
 }
 #ON {
 position: absolute;
@@ -155,4 +165,141 @@ top: 0px;
   -o-transform: scale(1.2);
   -ms-transform: scale(1.2);
   transform: scale(1.2)
+}
+#rectangle46 {
+    position: absolute;
+width: 1440px;
+height: 197px;
+left: 0px;
+top: 827px;
+
+background: rgb(209, 178, 166);
+}
+#F-TurnOut {
+position: absolute;
+width: 300px;
+height: 300px;
+left: 47px;
+top: 901px;
+
+font-family: Manrope;
+font-style: normal;
+font-weight: bold;
+font-size: 64px;
+line-height: 1px;
+
+text-align: center;
+color: #FFFFFF;
+}
+#General {
+    position: absolute;
+width: 121px;
+height: 24px;
+left: 511px;
+top: 861px;
+
+font-family: Manrope;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 1px;
+
+text-align: center;
+color: #000000;
+}
+#Terms {
+    position: absolute;
+width: 166px;
+height: 24px;
+left: 488px;
+top: 900px;
+
+font-family: Manrope;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 1px;
+
+text-align: center;
+color: #000000;
+}
+#About {
+    position: absolute;
+width: 166px;
+height: 24px;
+left: 488px;
+top: 935px;
+
+font-family: Manrope;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 1px;
+
+text-align: center;
+color: #000000;
+}
+#Privacy {
+    position: absolute;
+width: 166px;
+height: 24px;
+left: 488px;
+top: 974px;
+
+font-family: Manrope;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 1px;
+
+text-align: center;
+color: #000000;
+}
+#Help {
+    position: absolute;
+width: 121px;
+height: 24px;
+left: 912px;
+top: 863px;
+
+font-family: Manrope;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 1px;
+
+text-align: center;
+color: #000000;
+}
+#Contact {
+    position: absolute;
+width: 166px;
+height: 24px;
+left: 887px;
+top: 897px;
+
+font-family: Manrope;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 1px;
+
+text-align: center;
+color: #000000;
+}
+#FAQ {
+    position: absolute;
+width: 166px;
+height: 24px;
+left: 889px;
+top: 930px;
+
+font-family: Manrope;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 1px;
+
+text-align: center;
+color: #000000;
 }
