@@ -3,10 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     outline: none;
-    font-family: 'Roboto', sans-serif;
     justify-content: center;
-    background-color: #FAF3E0;
-     text-align: center;
+    text-align: center;
   }
   .rectangle{
     height: 150px;

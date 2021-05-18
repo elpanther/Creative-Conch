@@ -1,7 +1,3 @@
-body{
-    background-color: #FAF3E0;
-}
-
 .profilePic{
     height: 150px;
     width: 150px;
@@ -113,4 +109,8 @@ header{
 
 section{
     margin-top: 55px;
+}
+
+.heart{
+    color: red;
 }
