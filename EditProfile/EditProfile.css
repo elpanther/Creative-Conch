@@ -28,13 +28,12 @@ box-sizing: border-box;
 border-radius: 50px;
 }
 #PPButton:hover {
-  background: rgb(247, 217, 194);
+  background: rgb(241, 191, 184);
   background-repeat: no-repeat;
   /* background-image: url(/Images/Image_Icon.jpg); */
   background-position: center;
   background-size: 40px;
   cursor: pointer;
-}
 }
 #ON {
 position: absolute;
@@ -101,8 +100,68 @@ line-height: 42px;
 
 color: rgba(0, 0, 0, 0.6);
 }
+#E1 {
+position: absolute;
+width: 42px;
+height: 28px;
+left: 353px;
+top: 223px;
 
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 28px;
 
+color: rgba(0, 0, 0, 0.2);
+}
+#E2 {
+    position: absolute;
+width: 90px;
+height: 33px;
+left: 353px;
+top: 353px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 28px;
+
+color: rgba(0, 0, 0, 0.2);
+}
+#E3 {
+    position: absolute;
+width: 42px;
+height: 28px;
+left: 350px;
+top: 441px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 28px;
+
+color: rgba(0, 0, 0, 0.2);
+}
+.H-TurnOut {
+position: absolute;
+width: 300px;
+height: 300px;
+z-index: 1;
+left: 47px;
+top: 901px;
+
+font-family: Manrope;
+font-style: normal;
+font-weight: bold;
+font-size: 64px;
+line-height: 1px;
+
+text-align: center;
+color: #FFFFFF;
+}
 .nav{
   position: absolute;
 width: 1440px;
