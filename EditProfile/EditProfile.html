@@ -7,20 +7,23 @@
     <link href="/EditProfile/EditProfile.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-    <script src="/EditProfile/EditProfile.js"></script>
+    <!-- <script src="/EditProfile/EditProfile.js"></script> -->
     <div id="ProfilePic"></div>
-    <button type="button" id="PPButton"></button>
+
+  <input type="file" id="PPButton">
+
     <div id="ON">Organization Name</div>
-    <input type="text" id="ONi" name="ONi">
     <div id="EA">Email Address</div>
-    <input type="Email" id="EAi" name="EAi">
     <div id="P">Password</div>
+    <div id="E1"> <script src="/EditProfile/EditProfile.js"></script>Edit</div>
+    <div href="" id="E2">Edit</div>
+    <div href="" id="E3">Edit</div>
 
 <!-- Header -->
     <nav class="nav">
-    <ul class="H-Turnout">
-    </ul>
-    <ul class = "corner" ><a href="">
+    <!-- <ul class="H-Turnout">
+    </ul> -->
+    <ul class = "corner" ><a href="/html/userProfile.html">
      <div class="profile">
         <svg xmlns="http://www.w3.org/2000/svg" width="70" height="40" fill="#C88471" class="bi bi-person-fill" viewBox="0 0 16 16">
             <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
@@ -29,7 +32,7 @@
 </a>
 </ul>
 <ul class = "corner2">
-    <a href="">
+    <a href="/html/createevent.html">
     <div class="word">
         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="40" fill="#C88471" class="bi bi-plus-square-fill" viewBox="0 0 16 16">
             <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm6.5 4.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3a.5.5 0 0 1 1 0z"/>
@@ -38,7 +41,7 @@
 </a>
 </ul>
 <ul class = "corner3">
-    <a href="">
+    <a href="/eventsbycategory/eventsbycatagory.html">
     <div class="word">
         <svg xmlns="http://www.w3.org/2000/svg" width="60" height="40" fill="#C88471" class="bi bi-house-fill" viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
@@ -48,6 +51,13 @@
 </a>
 </ul>
 </nav>
+<div id="line17"></div>
+    <!-- Nav Bar -->
+    <ul>
+      <li><a href="/OrgProfile/OrgProfile.html">Your Events</a></li>
+      <li><a href="/html/createevent.html">Add Events</a></li>
+      <li><a class="active" href="/EditProfile/EditProfile.html">Edit Account</a></li>
+    </ul>
 <!-- Footer -->
 <div id="rectangle46"></div>
     <div id="F-TurnOut">Turn Out</div>
