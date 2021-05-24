@@ -10,10 +10,10 @@ body {
   width: 256px;
   height: 256px;
   border-radius: 256px;
-  border: #FF7477 solid 2px; 
+  border: rgb(182, 147, 121) solid 2px; 
   left: 47px;
   top: 117px;
-  background: #F59A8B;
+    background-color: #EABF9F;
 }
 #PPButton {
     position: absolute;
@@ -22,13 +22,13 @@ height: 70px;
 left: 247px;
 top: 273px;
 
-background: #F59A8B;
-border: #FF7477 solid 2px; 
+background: rgb(182, 147, 121);
+  border: rgb(182, 147, 121) solid 2px; 
 box-sizing: border-box;
 border-radius: 50px;
 }
 #PPButton:hover {
-  background: rgb(241, 191, 184);
+  background: rgb(199, 168, 144);
   background-repeat: no-repeat;
   /* background-image: url(/Images/Image_Icon.jpg); */
   background-position: center;
