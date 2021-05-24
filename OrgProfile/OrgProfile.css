@@ -456,9 +456,9 @@ background-color:rgb(209, 178, 166);
   
 position: absolute;
 width: 126px;
-height: 23px;
+height: 43px;
 left: 72%;
-top: 0px;
+top: 15px;
 cursor:pointer;
 }
 
@@ -475,9 +475,9 @@ color: #fff;
 .corner2{
   position: absolute;
 width: 126px;
-height: 23px;
+height: 43px;
 left: 80%;
-top: 0px;
+top: 15px;
 cursor:pointer;
 
 }
@@ -494,9 +494,10 @@ cursor:pointer;
 .corner3{
   position: absolute;
   width: 126px;
-  height: 23px;
+  height: 43px;
   left: 87%;
-top: 0px;
+top: 15px;
+bottom: 0px;
   cursor:pointer;
 }
 .corner3:hover{ 
