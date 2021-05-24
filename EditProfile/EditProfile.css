@@ -1,0 +1,305 @@
+body {
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+
+  background: #FAF3E0;
+}
+#ProfilePic {
+     position: absolute;
+  width: 256px;
+  height: 256px;
+  border-radius: 256px;
+  border: #FF7477 solid 2px; 
+  left: 47px;
+  top: 117px;
+  background: #F59A8B;
+}
+#PPButton {
+    position: absolute;
+width: 70px;
+height: 70px;
+left: 247px;
+top: 273px;
+
+background: #F59A8B;
+border: #FF7477 solid 2px; 
+box-sizing: border-box;
+border-radius: 50px;
+}
+#PPButton:hover {
+  background: rgb(247, 217, 194);
+  background-repeat: no-repeat;
+  /* background-image: url(/Images/Image_Icon.jpg); */
+  background-position: center;
+  background-size: 40px;
+  cursor: pointer;
+}
+}
+#ON {
+position: absolute;
+width: 313px;
+height: 45px;
+left: 353px;
+top: 133px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 36px;
+line-height: 42px;
+
+color: rgba(0, 0, 0, 0.6);
+}
+#ONi {
+    position: absolute;
+width: 723px;
+height: 47px;
+left: 353px;
+top: 178px;
+
+border: 1px solid rgba(0, 0, 0, 0.4);
+box-sizing: border-box;
+}
+#EA {
+position: absolute;
+width: 234px;
+height: 42px;
+left: 353px;
+top: 264px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 36px;
+line-height: 42px;
+
+color: rgba(0, 0, 0, 0.6);
+}
+#EAi {
+position: absolute;
+width: 723px;
+height: 47px;
+left: 353px;
+top: 306px;
+
+border: 1px solid rgba(0, 0, 0, 0.4);
+box-sizing: border-box;
+}
+#P {
+position: absolute;
+width: 160px;
+height: 42px;
+left: 350px;
+top: 399px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 36px;
+line-height: 42px;
+
+color: rgba(0, 0, 0, 0.6);
+}
+
+
+.nav{
+  position: absolute;
+width: 1440px;
+height: 66px;
+left: 0px;
+top: 0px;
+background-color:rgb(209, 178, 166);
+}
+.corner{
+  
+position: absolute;
+width: 126px;
+height: 23px;
+left: 72%;
+top: 0px;
+cursor:pointer;
+}
+
+.corner:hover{
+  
+color: #fff;
+
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2)
+}
+.corner2{
+  position: absolute;
+width: 126px;
+height: 23px;
+left: 80%;
+top: 0px;
+cursor:pointer;
+
+}
+.corner2:hover{
+  
+  color: #fff;
+
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2)
+}
+.corner3{
+  position: absolute;
+  width: 126px;
+  height: 23px;
+  left: 87%;
+top: 0px;
+  cursor:pointer;
+}
+.corner3:hover{ 
+  color: #fff;
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2)
+}
+#rectangle46 {
+    position: absolute;
+width: 1440px;
+height: 197px;
+left: 0px;
+top: 827px;
+
+background: rgb(209, 178, 166);
+}
+#F-TurnOut {
+position: absolute;
+width: 300px;
+height: 300px;
+left: 47px;
+top: 901px;
+
+font-family: Manrope;
+font-style: normal;
+font-weight: bold;
+font-size: 64px;
+line-height: 1px;
+
+text-align: center;
+color: #FFFFFF;
+}
+#General {
+    position: absolute;
+width: 121px;
+height: 24px;
+left: 511px;
+top: 861px;
+
+font-family: Manrope;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 1px;
+
+text-align: center;
+color: #000000;
+}
+#Terms {
+    position: absolute;
+width: 166px;
+height: 24px;
+left: 488px;
+top: 900px;
+
+font-family: Manrope;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 1px;
+
+text-align: center;
+color: #000000;
+}
+#About {
+    position: absolute;
+width: 166px;
+height: 24px;
+left: 488px;
+top: 935px;
+
+font-family: Manrope;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 1px;
+
+text-align: center;
+color: #000000;
+}
+#Privacy {
+    position: absolute;
+width: 166px;
+height: 24px;
+left: 488px;
+top: 974px;
+
+font-family: Manrope;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 1px;
+
+text-align: center;
+color: #000000;
+}
+#Help {
+    position: absolute;
+width: 121px;
+height: 24px;
+left: 912px;
+top: 863px;
+
+font-family: Manrope;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 1px;
+
+text-align: center;
+color: #000000;
+}
+#Contact {
+    position: absolute;
+width: 166px;
+height: 24px;
+left: 887px;
+top: 897px;
+
+font-family: Manrope;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 1px;
+
+text-align: center;
+color: #000000;
+}
+#FAQ {
+    position: absolute;
+width: 166px;
+height: 24px;
+left: 889px;
+top: 930px;
+
+font-family: Manrope;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 1px;
+
+text-align: center;
+color: #000000;
+}
