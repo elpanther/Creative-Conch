@@ -4,12 +4,14 @@ let eventInfo = [
   "location": "Delaware",
   "Date": 05/8/21,
   "Time": "6:00pm",
+  "url": "https://www.bringfido.com/event/"
     },
     {
   "eventName": "donuts for don",
   "location": "Delaware",
   "Date": 05/9/21,
   "Time": "8:00pm",
+
     }
   ]
   
