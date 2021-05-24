@@ -12,24 +12,24 @@ body {
   width: 256px;
   height: 256px;
   border-radius: 256px;
-  border: #FF7477 solid 2px; 
+  border: rgb(182, 147, 121) solid 2px; 
   left: 47px;
   top: 117px;
-  background: #F59A8B;
+    background-color: #EABF9F;
   }
 #Ellipse20 {
   position: absolute;
   width: 120px;
   height: 120px;
   border-radius: 120px;
-  border: #B68973 solid 2px; 
+  border: rgb(182, 147, 121) solid 2px; 
   left: 982px;
   top: 207px;
 
-  background: #C88471;
+    background-color: #EABF9F;
 }
 #Ellipse20:hover {
-  background: rgb(221, 165, 150);
+  background: rgb(252, 216, 190);
   background-repeat: no-repeat;
   background-image: url(/Images/Image_Icon.jpg);
   background-position: center;
@@ -42,12 +42,12 @@ body {
   left: 1121px;
   top: 208px;
   border-radius: 120px;
-  border: #B68973 solid 2px; 
+  border: rgb(182, 147, 121) solid 2px; 
 
-  background: #C88471;
+    background-color: #EABF9F;
 }
 #Ellipse21:hover {
-  background: rgb(221, 165, 150);
+  background: rgb(252, 216, 190);
   background-repeat: no-repeat;
   background-image: url(/Images/Image_Icon.jpg);
   background-position: center;
@@ -60,18 +60,18 @@ body {
   left: 1260px;
   top: 207px;
   border-radius: 120px;
-  border: #B68973 solid 2px; 
+  border: rgb(182, 147, 121) solid 2px; 
 
-  background: #C88471;
+    background-color: #EABF9F;
 }
 #Ellipse22:hover {
-  background: rgb(221, 165, 150); 
+  background: rgb(252, 216, 190);
   background-repeat: no-repeat;
   background-image: url(/Images/Image_Icon.jpg);
   background-position: center;
   background-size: 40px;
 }
-#Rectangle41 {
+/* #Rectangle41 {
   position: absolute;
 width: 223px;
 height: 162px;
@@ -160,7 +160,7 @@ border: black solid 0px;
   background-image: url(/Images/Image_Icon.jpg);
   background-position: center;
   background-size: 40px;
-}
+}*/
 #text {
   position: absolute;
 width: 481px;
@@ -175,7 +175,7 @@ font-size: 36px;
 line-height: 42px;
 
 color: #000000;
-}
+} 
 #Name {
   position: absolute;
   width: 577px;
@@ -238,7 +238,7 @@ color: #000000;
   left: 47px;
   top: 453px;
 
-  border: 1px solid #F59A8B;
+  border: 1px solid #EABF9F;
 }
 
 /* Under the Line */
@@ -257,7 +257,7 @@ li {
 }
 li a {
   display: block;
-  color: #F59A8B;
+  color: #EABF9F;
   text-align: center;
   padding: 14px 36px;
   text-decoration: none;
@@ -267,13 +267,13 @@ li a {
   font-size: 36px;
 }
 li a:hover:not(.active) {
-  color: rgb(236, 183, 175);
+  color: rgb(252, 216, 190);
 }
 .active {
-  color: #FF7477;
+  color: rgb(182, 147, 121);
   font-weight: 900;
 }
-#text2-1 {
+/* #text2-1 {
   position: absolute;
 width: 272px;
 height: 58px;
@@ -426,7 +426,7 @@ line-height: 21px;
 
 color: #000000;
 
-}
+} */
 
 /* Header */
 .H-Turnout{
@@ -439,7 +439,7 @@ font-family: Manrope;
 font-style: normal;
 font-weight: bold;
 font-size: 64px;
-line-height: 1px;
+line-height: 20px;
 
 text-align: center;
 color: #FFFFFF;
@@ -450,7 +450,7 @@ width: 1440px;
 height: 66px;
 left: 0px;
 top: 0px;
-background-color:rgb(209, 178, 166);
+    background: #CD9C27;
 }
 .corner{
   
@@ -516,7 +516,7 @@ height: 197px;
 left: 0px;
 top: 827px;
 
-background: rgb(209, 178, 166);
+    background: #CD9C27;
 }
 #F-TurnOut {
 position: absolute;
@@ -548,7 +548,7 @@ font-size: 24px;
 line-height: 1px;
 
 text-align: center;
-color: #000000;
+color: #FFFFFF;
 }
 #Terms {
     position: absolute;
@@ -564,7 +564,7 @@ font-size: 18px;
 line-height: 1px;
 
 text-align: center;
-color: #000000;
+color: #FFFFFF;
 }
 #About {
     position: absolute;
@@ -580,7 +580,7 @@ font-size: 18px;
 line-height: 1px;
 
 text-align: center;
-color: #000000;
+color: #FFFFFF;
 }
 #Privacy {
     position: absolute;
@@ -596,7 +596,7 @@ font-size: 18px;
 line-height: 1px;
 
 text-align: center;
-color: #000000;
+color: #FFFFFF;
 }
 #Help {
     position: absolute;
@@ -612,7 +612,7 @@ font-size: 24px;
 line-height: 1px;
 
 text-align: center;
-color: #000000;
+color: #FFFFFF;
 }
 #Contact {
     position: absolute;
@@ -628,7 +628,7 @@ font-size: 18px;
 line-height: 1px;
 
 text-align: center;
-color: #000000;
+color: #FFFFFF;
 }
 #FAQ {
     position: absolute;
@@ -644,5 +644,5 @@ font-size: 18px;
 line-height: 1px;
 
 text-align: center;
-color: #000000;
+color: #FFFFFF;
 }
