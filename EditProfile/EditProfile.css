@@ -10,10 +10,10 @@ body {
   width: 256px;
   height: 256px;
   border-radius: 256px;
-  border: #FF7477 solid 2px; 
+  border: rgb(182, 147, 121) solid 2px; 
   left: 47px;
   top: 117px;
-  background: #F59A8B;
+    background-color: #EABF9F;
 }
 #PPButton {
     position: absolute;
@@ -22,13 +22,13 @@ height: 70px;
 left: 247px;
 top: 273px;
 
-background: #F59A8B;
-border: #FF7477 solid 2px; 
+background: rgb(182, 147, 121);
+  border: rgb(182, 147, 121) solid 2px; 
 box-sizing: border-box;
 border-radius: 50px;
 }
 #PPButton:hover {
-  background: rgb(241, 191, 184);
+  background: rgb(199, 168, 144);
   background-repeat: no-repeat;
   /* background-image: url(/Images/Image_Icon.jpg); */
   background-position: center;
@@ -148,7 +148,7 @@ width: 1440px;
 height: 66px;
 left: 0px;
 top: 0px;
-background-color:rgb(209, 178, 166);
+background-color: #CD9C27;
 }
 .corner{
   
@@ -212,7 +212,7 @@ top: 15px;
   left: 47px;
   top: 453px;
 
-  border: 1px solid #F59A8B;
+  border: 1px solid rgb(182, 147, 121);
 }
 
 /* Under the Line */
@@ -231,7 +231,7 @@ li {
 }
 li a {
   display: block;
-  color: #F59A8B;
+  color: #7a7a7a;
   text-align: center;
   padding: 14px 36px;
   text-decoration: none;
@@ -241,10 +241,10 @@ li a {
   font-size: 36px;
 }
 li a:hover:not(.active) {
-  color: rgb(236, 183, 175);
+  color: #b8b8b8;
 }
 .active {
-  color: #FF7477;
+  color: #000000;
   font-weight: 900;
 }
 /* Footer */
@@ -255,7 +255,7 @@ height: 197px;
 left: 0px;
 top: 827px;
 
-background: rgb(209, 178, 166);
+background: #CD9C27;
 }
 #F-TurnOut {
 position: absolute;
@@ -287,7 +287,7 @@ font-size: 24px;
 line-height: 1px;
 
 text-align: center;
-color: #000000;
+color: #FFFFFF;
 }
 #Terms {
     position: absolute;
@@ -303,7 +303,7 @@ font-size: 18px;
 line-height: 1px;
 
 text-align: center;
-color: #000000;
+color: #FFFFFF;
 }
 #About {
     position: absolute;
@@ -319,7 +319,7 @@ font-size: 18px;
 line-height: 1px;
 
 text-align: center;
-color: #000000;
+color: #FFFFFF;
 }
 #Privacy {
     position: absolute;
@@ -335,7 +335,7 @@ font-size: 18px;
 line-height: 1px;
 
 text-align: center;
-color: #000000;
+color: #FFFFFF;
 }
 #Help {
     position: absolute;
@@ -351,7 +351,7 @@ font-size: 24px;
 line-height: 1px;
 
 text-align: center;
-color: #000000;
+color: #FFFFFF;
 }
 #Contact {
     position: absolute;
@@ -367,7 +367,7 @@ font-size: 18px;
 line-height: 1px;
 
 text-align: center;
-color: #000000;
+color: #FFFFFF;
 }
 #FAQ {
     position: absolute;
@@ -383,5 +383,5 @@ font-size: 18px;
 line-height: 1px;
 
 text-align: center;
-color: #000000;
+color: #FFFFFF;
 }
