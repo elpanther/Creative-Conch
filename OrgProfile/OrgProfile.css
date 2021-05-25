@@ -238,7 +238,7 @@ color: #000000;
   left: 47px;
   top: 453px;
 
-  border: 1px solid #EABF9F;
+  border: 1px solid rgb(182, 147, 121);
 }
 
 /* Under the Line */
@@ -257,7 +257,7 @@ li {
 }
 li a {
   display: block;
-  color: #EABF9F;
+  color: #7a7a7a;
   text-align: center;
   padding: 14px 36px;
   text-decoration: none;
@@ -267,11 +267,14 @@ li a {
   font-size: 36px;
 }
 li a:hover:not(.active) {
-  color: rgb(252, 216, 190);
+  color: #b8b8b8;
 }
 .active {
-  color: rgb(182, 147, 121);
+  color: #000000;
   font-weight: 900;
+}
+.move {
+    top: 3px;
 }
 /* #text2-1 {
   position: absolute;
