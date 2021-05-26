@@ -1,7 +1,7 @@
 body {
   position: relative;
-  width: 1440px;
-  height: 1024px;
+  /* width: 1000px;
+  height: 1000px; */
 
   background: #FAF3E0;
 }
@@ -125,29 +125,25 @@ line-height: 28px;
 
 color: rgba(0, 0, 0, 0.2);
 }
-.H-TurnOut {
+#H-TO {
 position: absolute;
-width: 300px;
-height: 300px;
-z-index: 1;
+width: 100px;
+height: 100px;
 left: 47px;
-top: 901px;
+
 
 font-family: Manrope;
 font-style: normal;
 font-weight: bold;
-font-size: 64px;
-line-height: 1px;
+font-size: 24px;
 
 text-align: center;
 color: #FFFFFF;
 }
 .nav{
   position: absolute;
-width: 1440px;
+width: 100%;
 height: 66px;
-left: 0px;
-top: 0px;
 background-color: #CD9C27;
 }
 .corner{
@@ -207,7 +203,7 @@ top: 15px;
 }
 #line17 {
   position: absolute;
-  width: 1365px;
+  width: 100%;
   height: 0px;
   left: 47px;
   top: 453px;
@@ -250,13 +246,14 @@ li a:hover:not(.active) {
 /* Footer */
 #rectangle46 {
     position: absolute;
-width: 1440px;
-height: 197px;
-left: 0px;
-top: 827px;
+width: 100%;
+height: 25rem;
+top: 800px;
 
 background: #CD9C27;
 }
+
+
 #F-TurnOut {
 position: absolute;
 width: 300px;
@@ -273,6 +270,8 @@ line-height: 1px;
 text-align: center;
 color: #FFFFFF;
 }
+
+
 #General {
     position: absolute;
 width: 121px;
